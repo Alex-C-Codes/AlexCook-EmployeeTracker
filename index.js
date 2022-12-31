@@ -2,11 +2,6 @@ const mysql = require('mysql2');
 const inquirer = require('inquirer');
 require('console.table');
 
-// check join query activities 25/26 to NOT display department_id
-// use inquirer prompt to create menus
-// create connection file to database
-// create query for displaying information / adding information to table
-
 // Connect to database
 const db = mysql.createConnection(
     {
